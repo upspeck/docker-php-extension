@@ -1,4 +1,4 @@
-FROM php:7.0.3-apache
+FROM php:5.6.18-apache
 
 RUN apt-get update && apt-get install libicu-dev -y \ 
     && docker-php-ext-install mbstring \
